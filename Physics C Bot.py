@@ -19,13 +19,6 @@ async def on_message(message):
     user = user[:-5]
     sentence_string = message.content
     sentence_list = sentence_string.split()
-    '''
-    for word in sentence_list:
-        if len(word) > 10:
-            await message.channel.send('Wow ' + user + ' has big nurd')
-            print(message)
-            return
-    '''
     if sentence_string == 'date':
         today = date.today()
         year = today.year
@@ -66,10 +59,7 @@ async def on_message(message):
         if month == 6:
             day += 30
             month -= 1
-        # if month == 5:
-        #  day += 31
-        #  month -= 1
-
+            
         while year > 2018:
             day += 365
             if year % 4 == 0:
