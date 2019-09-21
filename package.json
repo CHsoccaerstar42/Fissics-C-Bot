@@ -1,0 +1,12 @@
+{
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "Fissics-C-Bot.py",
+  "scripts": {
+    "start": "node Fissics-C-Bot.py"
+  },
+  "dependencies": {
+    "discord.py": "11.1.0",
+  }
+}
