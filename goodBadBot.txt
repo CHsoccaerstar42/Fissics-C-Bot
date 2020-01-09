@@ -1,0 +1,3 @@
+good = 5
+bad = 12
+score = -70
